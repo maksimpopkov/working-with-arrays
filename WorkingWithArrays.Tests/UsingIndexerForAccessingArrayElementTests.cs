@@ -261,7 +261,7 @@ namespace WorkingWithArrays.Tests
         [TestCase(new[] { 0.01f }, ExpectedResult = 0.01f)]
         [TestCase(new[] { 0.01f, 0.02f }, ExpectedResult = 0.01f)]
         [TestCase(new[] { 0.01f, 0.02f, 0.03f }, ExpectedResult = 0.01f)]
-        public float GetFirstArrayElement_ReturnsFirstDoubleElement(float[] array)
+        public float GetFirstArrayElement_ReturnsFirstFloatElement(float[] array)
         {
             // Act
             return UsingIndexerForAccessingArrayElement.GetFirstArrayElement(array);
@@ -269,7 +269,7 @@ namespace WorkingWithArrays.Tests
 
         [TestCase(new[] { 0.01f, 0.02f, 0.03f, 0.04f, 0.05f, 0.06f, 0.07f, 0.08f, 0.09f }, ExpectedResult = 0.09f)]
         [TestCase(new[] { 0.01f, 0.02f, 0.03f, 0.04f, 0.05f, 0.06f, 0.07f, 0.08f, 0.09f, 0.11f }, ExpectedResult = 0.09f)]
-        public float GetNinthArrayElement_ReturnsNinthDoubleElement(float[] array)
+        public float GetNinthArrayElement_ReturnsNinthFloatElement(float[] array)
         {
             // Act
             return UsingIndexerForAccessingArrayElement.GetNinthArrayElement(array);
@@ -286,7 +286,7 @@ namespace WorkingWithArrays.Tests
 
         [TestCase(new[] { 0.01f, 0.02f }, ExpectedResult = 0.01f)]
         [TestCase(new[] { 0.01f, 0.02f, 0.03f }, ExpectedResult = 0.02f)]
-        public float GetNextToLastElement_ReturnsNextToLastDoubleElement(float[] array)
+        public float GetNextToLastElement_ReturnsNextToLastFloatElement(float[] array)
         {
             // Act
             return UsingIndexerForAccessingArrayElement.GetNextToLastElement(array);
