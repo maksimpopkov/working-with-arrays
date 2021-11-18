@@ -278,7 +278,7 @@ namespace WorkingWithArrays.Tests
         [TestCase(new[] { 0.01f }, ExpectedResult = 0.01f)]
         [TestCase(new[] { 0.01f, 0.02f }, ExpectedResult = 0.02f)]
         [TestCase(new[] { 0.01f, 0.02f, 0.03f }, ExpectedResult = 0.03f)]
-        public float GetLastElement_ReturnsLastDoubleElement(float[] array)
+        public float GetLastElement_ReturnsLastFloatElement(float[] array)
         {
             // Act
             return UsingIndexerForAccessingArrayElement.GetLastElement(array);
