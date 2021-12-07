@@ -1,7 +1,5 @@
 ﻿using System;
 
-#pragma warning disable CA1062
-
 namespace WorkingWithArrays
 {
     public static class UsingIndexerForAccessingArrayElement
